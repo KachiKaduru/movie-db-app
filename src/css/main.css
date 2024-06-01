@@ -1,0 +1,1074 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins";
+  background: #242a32;
+  height: 100%;
+}
+
+.container {
+  border: 2px solid green;
+  color: #fff;
+  max-width: 37.5rem;
+  margin: auto;
+  padding: 3rem;
+  height: 100%;
+}
+
+.scroll-in {
+  transition: all 1s;
+}
+
+.hidden-stn {
+  opacity: 0;
+  transform: translateY(8rem) scale(0.8);
+}
+
+.fs-64-700 {
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 8.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-64-700 {
+    font-size: 5.696rem;
+    line-height: 7.654rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-64-700 {
+    font-size: 4.992rem;
+    line-height: 6.708rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-64-700 {
+    font-size: 4.48rem;
+    line-height: 6.02rem;
+  }
+}
+
+.fs-64-600 {
+  font-weight: 600;
+  font-size: 6.4rem;
+  line-height: 8.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-64-600 {
+    font-size: 5.696rem;
+    line-height: 7.654rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-64-600 {
+    font-size: 4.992rem;
+    line-height: 6.708rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-64-600 {
+    font-size: 4.48rem;
+    line-height: 6.02rem;
+  }
+}
+
+.fs-58-700 {
+  font-weight: 700;
+  font-size: 5.8rem;
+  line-height: 8rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-58-700 {
+    font-size: 5.162rem;
+    line-height: 7.12rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-58-700 {
+    font-size: 4.524rem;
+    line-height: 6.24rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-58-700 {
+    font-size: 4.06rem;
+    line-height: 5.6rem;
+  }
+}
+
+.fs-58-600 {
+  font-weight: 600;
+  font-size: 5.8rem;
+  line-height: 8rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-58-600 {
+    font-size: 5.162rem;
+    line-height: 7.12rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-58-600 {
+    font-size: 4.524rem;
+    line-height: 6.24rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-58-600 {
+    font-size: 4.06rem;
+    line-height: 5.6rem;
+  }
+}
+
+.fs-58-500 {
+  font-weight: 500;
+  font-size: 5.8rem;
+  line-height: 8rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-58-500 {
+    font-size: 5.162rem;
+    line-height: 7.12rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-58-500 {
+    font-size: 4.524rem;
+    line-height: 6.24rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-58-500 {
+    font-size: 4.06rem;
+    line-height: 5.6rem;
+  }
+}
+
+.fs-54-700 {
+  font-weight: 700;
+  font-size: 5.4rem;
+  line-height: 7.4rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-54-700 {
+    font-size: 4.806rem;
+    line-height: 6.586rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-54-700 {
+    font-size: 4.212rem;
+    line-height: 5.772rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-54-700 {
+    font-size: 3.78rem;
+    line-height: 5.18rem;
+  }
+}
+
+.fs-54-600 {
+  font-weight: 600;
+  font-size: 5.4rem;
+  line-height: 7.4rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-54-600 {
+    font-size: 4.806rem;
+    line-height: 6.586rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-54-600 {
+    font-size: 4.212rem;
+    line-height: 5.772rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-54-600 {
+    font-size: 3.78rem;
+    line-height: 5.18rem;
+  }
+}
+
+.fs-54-500 {
+  font-weight: 500;
+  font-size: 5.4rem;
+  line-height: 7.4rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-54-500 {
+    font-size: 4.806rem;
+    line-height: 6.586rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-54-500 {
+    font-size: 4.212rem;
+    line-height: 5.772rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-54-500 {
+    font-size: 3.78rem;
+    line-height: 5.18rem;
+  }
+}
+
+.fs-48-700 {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 6.4rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-48-700 {
+    font-size: 4.272rem;
+    line-height: 5.696rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-48-700 {
+    font-size: 3.744rem;
+    line-height: 4.992rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-48-700 {
+    font-size: 3.36rem;
+    line-height: 4.48rem;
+  }
+}
+
+.fs-48-600 {
+  font-weight: 600;
+  font-size: 4.8rem;
+  line-height: 6.4rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-48-600 {
+    font-size: 4.272rem;
+    line-height: 5.696rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-48-600 {
+    font-size: 3.744rem;
+    line-height: 4.992rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-48-600 {
+    font-size: 3.36rem;
+    line-height: 4.48rem;
+  }
+}
+
+.fs-48-500 {
+  font-weight: 500;
+  font-size: 4.8rem;
+  line-height: 6.4rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-48-500 {
+    font-size: 4.272rem;
+    line-height: 5.696rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-48-500 {
+    font-size: 3.744rem;
+    line-height: 4.992rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-48-500 {
+    font-size: 3.36rem;
+    line-height: 4.48rem;
+  }
+}
+
+.fs-38-700 {
+  font-weight: 700;
+  font-size: 3.8rem;
+  line-height: 5.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-38-700 {
+    font-size: 3.382rem;
+    line-height: 4.984rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-38-700 {
+    font-size: 2.964rem;
+    line-height: 4.368rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-38-700 {
+    font-size: 2.66rem;
+    line-height: 3.92rem;
+  }
+}
+
+.fs-38-600 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 5.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-38-600 {
+    font-size: 3.382rem;
+    line-height: 4.984rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-38-600 {
+    font-size: 2.964rem;
+    line-height: 4.368rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-38-600 {
+    font-size: 2.66rem;
+    line-height: 3.92rem;
+  }
+}
+
+.fs-38-500 {
+  font-weight: 500;
+  font-size: 3.8rem;
+  line-height: 5.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-38-500 {
+    font-size: 3.382rem;
+    line-height: 4.984rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-38-500 {
+    font-size: 2.964rem;
+    line-height: 4.368rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-38-500 {
+    font-size: 2.66rem;
+    line-height: 3.92rem;
+  }
+}
+
+.fs-36-700 {
+  font-weight: 700;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-36-700 {
+    font-size: 3.204rem;
+    line-height: 4.806rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-36-700 {
+    font-size: 2.808rem;
+    line-height: 4.212rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-36-700 {
+    font-size: 2.52rem;
+    line-height: 3.78rem;
+  }
+}
+
+.fs-36-600 {
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 5.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-36-600 {
+    font-size: 3.204rem;
+    line-height: 4.984rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-36-600 {
+    font-size: 2.808rem;
+    line-height: 4.368rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-36-600 {
+    font-size: 2.52rem;
+    line-height: 3.92rem;
+  }
+}
+
+.fs-36-500 {
+  font-weight: 500;
+  font-size: 3.6rem;
+  line-height: 5.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-36-500 {
+    font-size: 3.204rem;
+    line-height: 4.984rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-36-500 {
+    font-size: 2.808rem;
+    line-height: 4.368rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-36-500 {
+    font-size: 2.52rem;
+    line-height: 3.92rem;
+  }
+}
+
+.fs-32-600 {
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-32-600 {
+    font-size: 2.848rem;
+    line-height: 4.272rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-32-600 {
+    font-size: 2.496rem;
+    line-height: 3.744rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-32-600 {
+    font-size: 2.24rem;
+    line-height: 3.36rem;
+  }
+}
+
+.fs-32-500 {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-32-500 {
+    font-size: 2.848rem;
+    line-height: 4.272rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-32-500 {
+    font-size: 2.496rem;
+    line-height: 3.744rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-32-500 {
+    font-size: 2.24rem;
+    line-height: 3.36rem;
+  }
+}
+
+.fs-32-400 {
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-32-400 {
+    font-size: 2.848rem;
+    line-height: 4.272rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-32-400 {
+    font-size: 2.496rem;
+    line-height: 3.744rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-32-400 {
+    font-size: 2.24rem;
+    line-height: 3.36rem;
+  }
+}
+
+.fs-28-600 {
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-28-600 {
+    font-size: 2.492rem;
+    line-height: 3.204rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-28-600 {
+    font-size: 2.184rem;
+    line-height: 2.808rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-28-600 {
+    font-size: 1.96rem;
+    line-height: 2.52rem;
+  }
+}
+
+.fs-28-500 {
+  font-weight: 500;
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-28-500 {
+    font-size: 2.492rem;
+    line-height: 3.204rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-28-500 {
+    font-size: 2.184rem;
+    line-height: 2.808rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-28-500 {
+    font-size: 1.96rem;
+    line-height: 2.52rem;
+  }
+}
+
+.fs-28-400 {
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-28-400 {
+    font-size: 2.492rem;
+    line-height: 3.204rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-28-400 {
+    font-size: 2.184rem;
+    line-height: 2.808rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-28-400 {
+    font-size: 1.96rem;
+    line-height: 2.52rem;
+  }
+}
+
+.fs-24-600 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-24-600 {
+    font-size: 2.136rem;
+    line-height: 3.204rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-24-600 {
+    font-size: 1.872rem;
+    line-height: 2.808rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-24-600 {
+    font-size: 1.68rem;
+    line-height: 2.52rem;
+  }
+}
+
+.fs-24-500 {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-24-500 {
+    font-size: 2.136rem;
+    line-height: 3.204rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-24-500 {
+    font-size: 1.872rem;
+    line-height: 2.808rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-24-500 {
+    font-size: 1.68rem;
+    line-height: 2.52rem;
+  }
+}
+
+.fs-24-400 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-24-400 {
+    font-size: 2.136rem;
+    line-height: 3.204rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-24-400 {
+    font-size: 1.872rem;
+    line-height: 2.808rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-24-400 {
+    font-size: 1.68rem;
+    line-height: 2.52rem;
+  }
+}
+
+.fs-18-600 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-18-600 {
+    font-size: 1.602rem;
+    line-height: 2.403rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-18-600 {
+    font-size: 1.404rem;
+    line-height: 2.106rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-18-600 {
+    font-size: 1.26rem;
+    line-height: 1.89rem;
+  }
+}
+
+.fs-18-500 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-18-500 {
+    font-size: 1.602rem;
+    line-height: 2.848rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-18-500 {
+    font-size: 1.404rem;
+    line-height: 2.496rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-18-500 {
+    font-size: 1.26rem;
+    line-height: 2.24rem;
+  }
+}
+
+.fs-18-400 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-18-400 {
+    font-size: 1.602rem;
+    line-height: 2.848rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-18-400 {
+    font-size: 1.404rem;
+    line-height: 2.496rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-18-400 {
+    font-size: 1.26rem;
+    line-height: 2.24rem;
+  }
+}
+
+.fs-16-500 {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-16-500 {
+    font-size: 1.424rem;
+    line-height: 2.492rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-16-500 {
+    font-size: 1.248rem;
+    line-height: 2.184rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-16-500 {
+    font-size: 1.12rem;
+    line-height: 1.96rem;
+  }
+}
+
+.fs-16-400 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-16-400 {
+    font-size: 1.424rem;
+    line-height: 2.492rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-16-400 {
+    font-size: 1.248rem;
+    line-height: 2.184rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-16-400 {
+    font-size: 1.12rem;
+    line-height: 1.96rem;
+  }
+}
+
+.fs-12-500 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-12-500 {
+    font-size: 1.068rem;
+    line-height: 1.602rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-12-500 {
+    font-size: 0.936rem;
+    line-height: 1.404rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-12-500 {
+    font-size: 0.84rem;
+    line-height: 1.26rem;
+  }
+}
+
+.fs-12-400 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.8rem;
+  letter-spacing: 0;
+}
+@media only screen and (max-width: 1080px) {
+  .fs-12-400 {
+    font-size: 1.068rem;
+    line-height: 2.492rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fs-12-400 {
+    font-size: 0.936rem;
+    line-height: 2.184rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .fs-12-400 {
+    font-size: 0.84rem;
+    line-height: 1.96rem;
+  }
+}
+
+.mb-86 {
+  margin: 0 0 8.6rem;
+}
+
+.mb-64 {
+  margin: 0 0 6.4rem;
+}
+
+.mb-48 {
+  margin: 0 0 4.8rem;
+}
+
+.mb-40 {
+  margin: 0 0 4rem;
+}
+
+.mb-32 {
+  margin: 0 0 3.2rem;
+}
+
+.mb-24 {
+  margin: 0 0 2.4rem;
+}
+
+.mb-20 {
+  margin: 0 0 2rem;
+}
+
+.mb-16 {
+  margin: 0 0 1.6rem;
+}
+
+.mb-12 {
+  margin: 0 0 1.2rem;
+}
+
+.mb-8 {
+  margin: 0 0 0.8rem;
+}
+
+.pd-128 {
+  padding: 12.8rem 0;
+}
+@media only screen and (max-width: 1080px) {
+  .pd-128 {
+    padding: 9.984rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .pd-128 {
+    padding: 6.912rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .pd-128 {
+    padding: 6.912rem 1.5rem;
+  }
+}
+
+.pd-96 {
+  padding: 9.6rem 0;
+}
+@media only screen and (max-width: 1080px) {
+  .pd-96 {
+    padding: 7.488rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .pd-96 {
+    padding: 5.184rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .pd-96 {
+    padding: 5.184rem 1.5rem;
+  }
+}
+
+.pd-16 {
+  padding: 1.6rem 0;
+}
+@media only screen and (max-width: 1080px) {
+  .pd-16 {
+    padding: 1.248rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .pd-16 {
+    padding: 0.864rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .pd-16 {
+    padding: 0.864rem 1.5rem;
+  }
+}
+
+.grd {
+  display: grid;
+}
+
+.grd-col-640 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50rem, 1fr));
+  gap: 0;
+}
+
+.grd-col-405 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  gap: 0;
+}
+
+.grd-col-328 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+  gap: 0;
+}
+
+.flx {
+  display: flex;
+}
+
+.categories-stn h2 {
+  margin-bottom: 2rem;
+}
+.categories-stn .category-tabs {
+  margin-bottom: 3rem;
+}
+.categories-stn .category-tabs button {
+  font-family: "Poppins";
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  background: #3a3f47;
+  padding: 0.7rem 2.2rem;
+  border-radius: 1.6rem;
+}
+
+.movies-list {
+  display: grid;
+  gap: 2rem;
+  width: 100%;
+}
+.movies-list .no-movie {
+  place-self: center;
+  font-style: italic;
+}
+.movies-list .movie {
+  display: grid;
+  grid-template-columns: 0.4fr 1.4fr 0.2fr;
+  gap: 2rem;
+}
+.movies-list .movie-poster {
+  width: 9.5rem;
+  height: 12rem;
+}
+.movies-list .movie-poster img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.movies-list .movie-details {
+  display: grid;
+}
+.movies-list .movie-details h6 {
+  font-size: 1.2rem;
+}
+.movies-list .movie-details h6 p {
+  font-weight: 500;
+}
+
+header {
+  margin: 2rem 0 2.2rem;
+}
+
+.search-comp {
+  display: grid;
+  gap: 1.8rem;
+}
+.search-comp form {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.3rem;
+}
+.search-comp .search-tab {
+  background: #3a3f47;
+  color: #fff;
+  font-family: "Poppins";
+  padding: 1rem 1.5rem;
+  border-radius: 1.6rem;
+  width: 100%;
+}
+.search-comp ::-moz-placeholder {
+  color: #fff;
+}
+.search-comp ::placeholder {
+  color: #fff;
+}
+.search-comp button {
+  background: #3a3f47;
+  border-radius: 1.6rem;
+  display: grid;
+}
+.search-comp button img {
+  padding: 1.1rem 1.196rem;
+}

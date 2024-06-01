@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1080px) {
+    .container {
+        background-color: gold;
+    }
+
+    .grd-col-640 {
+        @include grd-col(37rem, 2rem);
+    }
+
+    .grd-col-640-b {
+        @include grd-col(37rem);
+    }
+
+    .grd-col-405 {
+        @include grd-col(27rem, 2rem);
+    }
+
+    .grd-col-328 {
+        @include grd-col(20rem, 2rem 1.25rem);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        background-color: royalblue;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .container {
+        background-color: indianred;
+    }
+}

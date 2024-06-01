@@ -1,0 +1,70 @@
+@function reduce($percent, $a) {
+    @return $percent * $a;
+}
+
+@mixin font-variation($fw-v, $fs-v, $lh-v, $ls-v: 0) {
+    font-weight: $fw-v;
+    font-size: reduce(1, $fs-v);
+    line-height: reduce(1, $lh-v);
+    letter-spacing: $ls-v;
+
+    @media only screen and (max-width: 1080px) {
+        font-size: reduce(.89, $fs-v);
+        line-height: reduce(.89, $lh-v);
+    }
+
+    @media only screen and (max-width: 767px) {
+        font-size: reduce(.78, $fs-v);
+        line-height: reduce(.78, $lh-v);
+    }
+
+    @media only screen and (max-width: 480px) {
+        font-size: reduce(.7, $fs-v);
+        line-height: reduce(.7, $lh-v);
+    }
+}
+
+@mixin font($fw, $fs, $lh, $ls: 0) {
+    @include font-variation($fw, $fs, $lh, $ls);
+}
+
+@mixin margin ($mt: 0, $ms: 0, $mb: 0) {
+    margin: $mt $ms $mb;
+}
+
+@mixin margin-bottom($m-b) {
+    margin: 0 0 $m-b;
+}
+
+@mixin padding-variation($ptb-v, $ps-v: 0) {
+    padding: $ptb-v $ps-v;
+
+    @media only screen and (max-width: 1080px) {
+        padding: reduce(.78, $ptb-v) $ps-1080;
+    }
+
+    @media only screen and (max-width: 767px) {
+        padding: reduce(.54, $ptb-v) $ps-767;
+    }
+
+    @media only screen and (max-width: 480px) {
+        padding: reduce(.54, $ptb-v) $ps-480;
+    }
+}
+
+@mixin grd-col($gc, $gap: 0) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax($gc, 1fr));
+    gap: $gap;
+}
+
+@mixin buttons($ptb-v, $ps-v, $col) {
+    width: fit-content;
+    @include padding-variation($ptb-v, $ps-v);
+    @include font(600, 1.8rem, 3.2rem);
+    // border-radius: 4.1rem;
+    // background-color: $col;
+    // border: 2px solid $col;
+    // color: $btn-color;
+    // font-family: 'Poppins', sans-serif;
+}

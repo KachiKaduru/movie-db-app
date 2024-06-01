@@ -1,0 +1,36 @@
+header {
+  margin: 2rem 0 2.2rem;
+}
+
+.search-comp {
+  display: grid;
+  gap: 1.8rem;
+  form {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.3rem;
+  }
+
+  .search-tab {
+    background: #3a3f47;
+    color: #fff;
+    font-family: "Poppins";
+    padding: 1rem 1.5rem;
+    border-radius: 1.6rem;
+    width: 100%;
+  }
+
+  ::placeholder {
+    color: #fff;
+  }
+
+  button {
+    background: #3a3f47;
+    border-radius: 1.6rem;
+    display: grid;
+
+    img {
+      padding: 1.1rem 1.196rem;
+    }
+  }
+}
